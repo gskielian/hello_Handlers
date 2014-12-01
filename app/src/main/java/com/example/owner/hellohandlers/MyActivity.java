@@ -27,6 +27,7 @@ public class MyActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
+        imgView = (ImageView) findViewById(R.id.imageView);
         doStuffButton = (Button) findViewById(R.id.do_stuff_button);
         doStuffButton.setOnClickListener(
                 new View.OnClickListener() {
